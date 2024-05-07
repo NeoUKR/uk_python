@@ -1,0 +1,8 @@
+# Локальна компіляція бібліотеки для тестування
+pip install .
+# Компіляція бібліотеки
+python setup.py bdist_wheel sdist
+# Перевірка публікації
+python -m twine check dist/*
+# Публікація бібліотеки
+python -m twine upload dist/*

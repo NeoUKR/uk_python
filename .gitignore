@@ -1,0 +1,4 @@
+/.venv/
+/build/
+/dist/
+/бібліотека/uk_std_libraries.egg-info/
